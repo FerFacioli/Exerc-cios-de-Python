@@ -1,4 +1,4 @@
-Gabarito - Lista de Revisão Python (v2.0)
+Gabarito - Lista de Revisão Python 
 
 Respostas práticas (resumo):
 1) Matriz 3x3 com listas aninhadas e exibição em linhas.
