@@ -1,0 +1,30 @@
+Gabarito - Lista de Revisão Python (v2.0)
+
+Respostas práticas (resumo):
+1) Matriz 3x3 com listas aninhadas e exibição em linhas.
+2) Soma dos elementos por laços aninhados ou sum sobre compreensões.
+3) Diagonal principal: elementos m[i][i] e soma destes.
+4) Matriz identidade com condição i==j -> 1, else 0.
+5) Transposta trocando índices: t[j][i] = m[i][j].
+6) Usar np.random, A+B, A.dot(B), A.T.
+7) np.linalg.det(matriz).
+8) np.linalg.solve -> solução [2,1].
+9) np.dot(a,b) e np.linalg.norm(a).
+10) Mínimos quadrados: coef = (X^T X)^{-1} X^T y.
+11) Abrir arquivo, contar linhas e palavras (split).
+12) Ler números, calcular soma/média e salvar em resumo.txt.
+13) Usar csv.reader, filtrar nota >=7 e gravar novos registros.
+14) json.load, verificar chave 'versao' e imprimir formatado.
+15) pandas.read_csv, calcular média e criar coluna 'valor_normalizado'.
+
+Respostas objetivas (16-25):
+16) C
+17) B
+18) C
+19) A
+20) B
+21) C
+22) B
+23) C
+24) B
+25) B
