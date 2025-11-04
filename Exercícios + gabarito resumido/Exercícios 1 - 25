@@ -1,0 +1,91 @@
+Parte 1 – Matrizes e NumPy (Exercícios práticos)
+1.Crie uma matriz 3x3 em Python (sem NumPy) preenchida com números fornecidos pelo usuário e exiba-a formatada.
+
+2. Calcule a soma de todos os elementos de uma matriz 3x3 digitada pelo usuário.
+
+3. Crie uma função que receba uma matriz 3x3 e retorne os valores da diagonal principal e a soma desses valores.
+
+4. Gere uma matriz identidade 4x4 (sem usar NumPy).
+
+5. Leia uma matriz 2x3 e gere sua transposta (3x2).
+
+6. Usando NumPy, crie duas matrizes 2x2 com valores aleatórios entre 1 e 10 e exiba: soma, multiplicação matricial e transpostas.
+
+7. Calcule o determinante de uma matriz 3x3 com NumPy.
+
+8. Resolva o sistema linear: 2x + y = 5 e x - y = 1 usando NumPy.
+
+9. Peça ao usuário dois vetores e calcule o produto escalar e a norma de cada vetor com NumPy.
+
+10. Leia um arquivo CSV com duas colunas (x, y) e realize uma regressão linear simples (mínimos quadrados) para estimar y = a*x + b. Exiba a e b.
+
+Parte 2 – Manipulação de Arquivos (Exercícios práticos)
+11. Leia um arquivo de texto 'dados.txt' e conte quantas linhas e quantas palavras existem no arquivo. Exiba o total.
+
+12. Dado um arquivo 'numeros.txt' contendo uma lista de números (um por linha), escreva um programa que calcule a soma e a média e salve esses resultados em 'resumo.txt'.
+
+13. Usando o módulo csv, leia 'tabela.csv' com cabeçalho (colunas: id, nome, nota). Crie um novo arquivo 'aprovados.csv' contendo apenas as linhas com nota >= 7.
+
+14. Leia um arquivo JSON 'config.json' contendo um dicionário com campos (nome, versao, parametros) e exiba os valores de forma formatada. Valide se o campo 'versao' existe.
+
+15. Usando pandas, leia 'dados.csv' em um DataFrame, calcule a média de uma coluna numérica (ex.: 'valor') e salve um novo CSV 'dados_com_media.csv' com uma coluna adicional 'valor_normalizado' (valor / média).
+
+Parte 3 – Questões de Múltipla Escolha
+16. (Múltipla escolha) Em Python, uma matriz pode ser representada como: 
+A) Uma lista simples 
+B) Um dicionário 
+C) Uma lista de listas 
+D) Um conjunto (set)
+
+17. (Múltipla escolha) Para criar uma matriz 3x3 de zeros usando NumPy, o comando correto é: 
+A) np.matrix(3,3) 
+B) np.zeros((3,3)) 
+C) np.empty([3,3]) 
+D) np.zeros[3,3]
+
+18. (Múltipla escolha) A função np.dot(A, B) executa: 
+A) Soma elemento a elemento 
+B) Multiplicação de matrizes 
+C) Produto escalar 
+D) Transposição
+
+19. (Múltipla escolha) O determinante de uma matriz é calculado com:
+ A) np.linalg.det() 
+B) np.det() 
+C) np.matrix.det() 
+D) np.linalg.solve()
+
+20. (Múltipla escolha) Para calcular a inversa de uma matriz com NumPy, usamos: 
+A) np.inverse(A) 
+B) np.linalg.inv(A) 
+C) np.inv(A) 
+D) np.linalg.inverse(A)
+
+21. (Múltipla escolha) Se o determinante de uma matriz é zero, isso significa: 
+A) A matriz é invertível 
+B) A matriz é ortogonal 
+C) A matriz é singular (não tem inversa)
+D) A matriz é identidade
+
+22. (Múltipla escolha) O comando np.loadtxt('dados.csv', delimiter=',') serve para:
+A) Salvar um arquivo 
+B) Ler dados numéricos de um arquivo CSV 
+C) Ler arquivos de texto apenas com strings 
+D) Carregar uma imagem
+23. (Múltipla escolha) O método np.savetxt('saida.csv', matriz, delimiter=',') faz: 
+A) Carrega dados de um arquivo
+B) Mostra uma matriz na tela 
+C) Salva uma matriz NumPy em um arquivo CSV 
+D) Gera uma matriz de teste
+
+24. (Múltipla escolha) A operação A.T em NumPy representa: 
+A) A inversa da matriz A 
+B) A transposta da matriz A 
+C) O determinante da matriz A 
+D) A soma dos elementos de A
+
+25. (Múltipla escolha) A equação matricial da regressão linear é: 
+A) β = X^T + Xy 
+B) β = (X^T X)^{-1} X^T y 
+C) β = X^{-1} y^T 
+D) β = Xy + b
